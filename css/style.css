@@ -1,0 +1,118 @@
+body{
+    color: rgb(191, 193, 200);
+    font-family: Roboto, "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.5;
+    background: rgb(30, 32, 43);
+}
+.navbar{
+    background: rgb(30, 32, 43); 
+}
+.nav-item .homeActive{
+    color: rgb(0, 154, 216);
+    border: 2px solid rgb(0, 154, 216);
+    border-radius: 20px;  
+}
+.nav-item .live{
+    border: 1px dotted rgb(255, 255, 255);
+    border-radius: 20px;  
+}
+.nav-item a{
+    color: white;
+    border-radius: 20px;
+    transition: all 0.1s ;
+}
+.nav-item a:hover{
+   color: rgb(0, 154, 216);
+    border: 2px solid rgb(0, 154, 216);   
+}
+ul li{
+    margin-right: 20px;
+    font-size: 13px;
+}
+.navbar-brand{
+    display: flex;
+    justify-content: space-around;
+}
+.logo-type{
+    display: flex;
+    flex-direction: column;
+}
+.logo-type h1{
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+.logo-type p{
+    font-size: 10px;
+    color: white;
+}
+#myinput{
+    background: rgb(30, 32, 43); 
+    margin-top: 60px;
+    margin-bottom: 60px;
+    border-radius: 30px;
+    border: none;
+    position: relative;
+}
+.cardInput{
+    background-image: url(../images/banner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:50% ,50%;
+    height: 350px;
+}
+#mybutton{
+    color: white;
+    background-color:rgb(0, 154, 216); 
+    border-radius: 20px;
+    border: none;
+    position: absolute;
+    top: 39%;
+    left: 90%;
+    padding: 10px 35px 10px 35px;
+    display: inline-block;
+
+}
+#mybutton2{
+    color: white;
+    background-color:rgb(0, 154, 216); 
+    border-radius: 20px;
+    border: none;
+    position: absolute;
+    top: 34%;
+    left: 56.2%;
+    padding: 10px 20px 10px 20px;
+    display: inline-block;
+    border-radius: 20px; 
+}
+.searchInput.form-control:hover{
+    border: none;
+    color: white;
+}
+ .card{
+    background-color:  #323544;
+}
+.midcard{
+    background-color: #1e202b;
+}
+
+.foot{
+    background-color:  #323544; 
+    margin-top: 17%;
+}
+h1{
+    font-size: 80px;
+}
+.foot .col-md-4 span{
+    background-color: #1E202B;
+    color: #009AD8;
+    padding: 15px;
+    font-size: 15px;
+  
+}
+.foot .col-md-4 span:hover{
+    background-color: #009AD8;
+    color: #fff;
+}
